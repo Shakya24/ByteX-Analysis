@@ -24,7 +24,7 @@ ByteX, a global e-commerce company founded in 2018, specializes in selling popul
 
 ByteX's sales analysis of 108k records across 2019-2022 shows annual revenue stabilizing at around $7 million, nearing pre-COVID levels, with North America and EMEA contributing 80% of sales. Monitors and AirPods account for 60% of revenue, though customer retention is a concern as unique and repeat purchase rates have declined by 15% and 10%, respectively. ByteX can benefit from expanding top product lines, optimizing bundling, and enhancing loyalty programs to increase customer lifetime value. Targeted growth in APAC and LATAM, along with improvements to digital channels like the mobile app, will strengthen ByteX's market position and drive sustainable growth.
 
-![ByteX Dataset ERD](Data/visualizations/ecommerce_ERD.webp)
+![ByteX Dataset ERD](Visualizations/ecommerce_ERD.webp)
 ByteX Dataset ERD
 
 ## Insights Deep-Dive
