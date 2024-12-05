@@ -37,8 +37,8 @@ ByteX Dataset ERD
 - North America and EMEA contribute 80% of sales, with the U.S. alone accounting for 50%.
 - APAC and LATAM experienced an astounding +200% growth in 2020 but have remained volatile.
 
-![Annual Sales and Growth Rates](Data/visualizations/annual_sales.webp)
-![Monthly Metrics](Data/visualizations/monthly_metrics.webp)
+![Annual Sales and Growth Rates](Visualizations/annual_sales.webp)
+![Monthly Metrics](Visualizations/monthly_metrics.webp)
 
 
 ### Key Product Performance
@@ -49,7 +49,7 @@ ByteX Dataset ERD
 - Monitors lead in revenue, contributing $9.8 million (35% of total sales) from 2019 to 2022.
 - Samsung Cable Pack represents 20% of orders but only 2% of revenue, likely due to its low price or use in promotions.
 
-![Product Performance Table](Data/visualizations/product_performance.webp)
+![Product Performance Table](Visualizations/product_performance.webp)
 
 ### Customer Growth and Repeat Purchase Trends
 
@@ -58,7 +58,7 @@ ByteX Dataset ERD
 - The stability in the number of repeat customers suggests a core base of loyal customers who consistently make multiple purchases each year.
 - The decline in both unique and repeat customers in 2022 highlights potential shifts in market dynamics or customer preferences.
 
-![Customer Retention Table](Data/visualizations/customer_retention.webp)
+![Customer Retention Table](Visualizations/customer_retention.webp)
 
 
 ### Loyalty Program Performance
@@ -69,8 +69,8 @@ ByteX Dataset ERD
 - The loyalty program performs strongly in North America, while APAC and LATAM regions remain volatile, suggesting a need for targeted strategies.
 - Loyalty purchases have a higher refund rate than non-loyalty purchases.
 
-![Loyalty Program Performance Table](Data/visualizations/loyalty.webp)
-![Loyalty Program Annual Metrics](Data/visualizations/loyalty_metrics.webp)
+![Loyalty Program Performance Table](Visualizations/loyalty.webp)
+![Loyalty Program Annual Metrics](Visualizations/loyalty_metrics.webp)
 
 
 ### Sales by Platforms & Channels
@@ -81,7 +81,7 @@ ByteX Dataset ERD
 - The website generates 97% ($27M) of sales with an AOV of $304, whereas the mobile app ($867K) lags with an AOV of $47.
 - Further considerations on channel performance are detailed in the assumptions and caveats section.
 
-![Sales by Platform and Channel](Data/visualizations/channel_platform.webp)
+![Sales by Platform and Channel](Visualizations/channel_platform.webp)
 
 
 ### Refund Rate Trends
@@ -92,7 +92,7 @@ ByteX Dataset ERD
 - Apple Airpods Headphones have the highest refund count at 2.6K (5% refund rate).
 - Loyalty purchases exhibit a higher refund rate than non-loyalty purchases, potentially warranting further investigation.
 
-![Loyalty Impact on Refund Rates](Data/visualizations/loyalty_impact_refund.webp)
+![Loyalty Impact on Refund Rates](Visualizations/loyalty_impact_refund.webp)
 
 ## Recommendations
 
@@ -158,7 +158,7 @@ Regional Growth Strategies
 
 - **Refund Records**: No refunds were recorded for 2022, which is an anomaly warranting further examination.
 - **Deterministic Relationship in Data**: Each `marketing_channel` is uniquely linked to one `account_creation_method`, indicating a one-to-one mapping. This lack of variation may require attention from the data engineering team to confirm intended relationships.
-    - ![One to One Mapping](Data/visualizations/order_count_channelxmethod.webp)
+    - ![One to One Mapping](Visualizations/order_count_channelxmethod.webp)
 - **Loyalty Program Clarification**:
     - Ambiguity exists in the `loyalty_program` variable—it's unclear if it's tied to the user's account or is specific to individual orders.
     - Can a user be a loyalty member for one purchase and not another? This clarification is essential for accurately measuring program performance.
